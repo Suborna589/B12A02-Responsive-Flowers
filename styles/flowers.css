@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+
+} 
+
+.display-flex{
+    display:flex; 
+    align-items: center;
+    gap:60px
+  
+
+
+} 
+
+.max-size{
+    max-width: 1140px;
+    margin:  0 auto;
+}  
+
+.nav-links li{ 
+   list-style: none; 
+ 
+
+   
+
+} 
+
+.nav-links li a{
+    text-decoration: none; 
+     color: #8987A1;
+     font-size: 1.2rem;
+    
+} 
+
+.nav-links li a:hover{ 
+    color: black;
+
+
+}
+
+
+
+.light-gray-text{ 
+    color: #8987A1;
+
+} 
+
+.navbar{
+    justify-content: space-between;
+}
+
+/* bannner section */
+
+.banner-container{
+    max-width:1174px ;
+    margin: 0 auto;
+    margin-top: 97px;
+    margin-bottom:50px ;
+ 
+  
+
+ 
+} 
+
+.content{ 
+    max-width: 550px;
+    margin: 0 auto;
+
+   
+    
+
+   
+
+} 
+
+.banner-img img{
+    margin-left: 20px;
+}
+
+.content-text{
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase; 
+    margin-bottom: 0px;
+    
+} 
+
+.text-color{
+    color:#e74c3c  ;
+} 
+
+.description-text{
+    font-size: 1.4rem;
+    max-width: 500px;
+    color: #99a3a4;
+    
+}  
+
+
+
+
+/* our plants section */ 
+
+.our-plants-section{
+    text-align:center;
+
+     
+}
+
+.plant-text{
+    font-size:3.125rem;
+    font-weight:700;
+    margin-bottom: 10px;
+} 
+
+
+ 
+
+.plant-description{
+      font-size: 1.4rem;
+    color: #99a3a4;
+      max-width: 848px; 
+     margin: 0 auto;
+
+
+} 
+
+
+.plant-card-section{
+    display: grid; 
+    grid-template-columns:repeat(4,1fr) ;
+    gap: 30px;
+    text-align: center;
+    margin-top: 30px;
+   
+} 
+
+.flower-name{
+    font-size: 1.4rem;
+    font-weight:500 ;
+   
+}
+
+.number-text{
+    font-size: 1.4rem;
+    font-weight:700 ;
+}
+
+.btn-card{
+    background:#FF7F50 ;
+    padding: 20px 80px;
+    color:#fdfefe ;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+
+     
+     
+

@@ -55,9 +55,12 @@
     justify-content: space-between;
 }
 
-/* bannner section */
+/* bannner section */ 
+
 
 .banner-container{
+     display:flex; 
+    align-items: center;
     max-width:1174px ;
     margin: 0 auto;
     margin-top: 97px;
@@ -72,10 +75,7 @@
     max-width: 550px;
     margin: 0 auto;
 
-   
-    
-
-   
+ 
 
 } 
 
@@ -92,7 +92,7 @@
 } 
 
 .text-color{
-    color:#e74c3c  ;
+    color:#e74c3c;
 } 
 
 .description-text{
@@ -124,9 +124,10 @@
 
 .plant-description{
       font-size: 1.4rem;
-    color: #99a3a4;
+      color: #99a3a4;
       max-width: 848px; 
-     margin: 0 auto;
+     margin: 0 auto; 
+     text-align: center;
 
 
 } 
@@ -135,8 +136,8 @@
 .plant-card-section{
     display: grid; 
     grid-template-columns:repeat(4,1fr) ;
-    gap: 30px;
-    text-align: center;
+    gap: 20px;
+    /* text-align: center; */
     margin-top: 30px;
    
 } 
@@ -154,12 +155,95 @@
 
 .btn-card{
     background:#FF7F50 ;
-    padding: 20px 80px;
+    padding: 18px 85px;
     color:#fdfefe ;
     border: none;
     font-weight: bold;
     text-transform: uppercase;
 }
+
+/* flower-lover  */
+
+.flower-lover-section{
+    display: flex;
+    align-items: center;
+    margin-top: 220px;
+    gap: 50px;
+   
+}
+
+.badge-img{
+    position: relative;
+    margin-left: -170px;
+    margin-top: -130px;
+    position:absolute; 
+    width: 286px;
+    height: 286px;
+} 
+
+.flower-lover-title{ 
+      font-size:3.125rem;
+    font-weight:700;
+    margin-bottom: 20px;
+     max-width: 420px;
+
+} 
+
+.lover-text-point{
+  
+    font-size: 1.4rem;
+      color: #99a3a4;
+      max-width: 440px; 
+     margin: 0 auto; 
+     margin-top: 30px;
+     
+   
+    
+}
+
+.flower-lover-content{
+    
+}
+
+
+
+                
+                
+                
+
+
+/* media device*/ 
+
+ @media screen and (max-width: 576px){
+
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+
+    .banner-img img{
+       max-width:500px;
+    }
+
+    .plant-description{
+        text-align: center;
+    }
+
+
+   
+
+    .plant-card-section{
+        grid-template-columns: repeat(2 ,1fr); 
+
+      
+     
+    }
+
+   .flower-lover-section{
+    flex-direction: column;
+
+   }
+ }
+
 
 
 

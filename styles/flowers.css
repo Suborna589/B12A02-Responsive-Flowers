@@ -257,13 +257,22 @@
     
    } 
 
-      .deal-text-2{
+    .deal-text-2{
     position: absolute;
-   
+    margin-top: -50%;
     margin-left: 18%;
     text-align: center;
     line-height: 125%;
-   }  
+   } 
+    .deal-text-3{
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 18%;
+    text-align: center;
+    line-height: 125%;
+   } 
+
+ 
 
    .deal-title{
     font-size: 2.5rem;
@@ -273,7 +282,9 @@
    .deal-show{
     font-size: 1.75rem;
     font-weight: 600;
-   }
+   } 
+
+   
 
 
      
@@ -388,15 +399,17 @@ footer{
         flex-direction: column-reverse;
     }
 
-    .banner-img img{
-       max-width:500px;
+    .banner-img > img{
+       max-width:460px;
     }
 
     .plant-description{
         text-align: center;
     }
 
-
+.max-size{
+    max-width: 450px;
+}
    
 
     .plant-card-section{
@@ -411,13 +424,37 @@ footer{
 
    } 
 
-.deals-img-section{
+.deals-section{
     grid-template-columns: 1fr;
-} 
+  
+  
+}
+
+  .deal-text-1{
+    position: absolute;
+    margin-top: -44%;
+    margin-left: 25%;
+    text-align: center;
+    line-height: 125%;
+   } 
+  .deal-text-2{
+    position: absolute;
+    margin-top: -45%;
+    margin-left: 25%;
+    text-align: center;
+    line-height: 125%;
+   }
+
+     .deal-title{
+    font-size: 1.75rem;
+    font-weight: 700;
+   } 
+   
+   
 
 
 .colorful-bunch img{
-    max-width: 520px;
+    max-width: 450px;
     height: 300px;
     margin: 0 auto;
 } 
@@ -435,7 +472,33 @@ footer{
   
 
 
+}  
+
+/* .deals-section > img{
+    max-width: 540px;
+} */
+
+.bunch-img > img{
+    margin-left: 10%;
+} 
+
+
+
+.footer-section{
+    margin-left: 10%;
 }
+
+
+.first-deals  img{
+    width: 450px;
+}
+.second-deals  img{
+    width: 450px;
+}
+.third-deals  img{
+    width: 450px;
+}
+
 
 .colorful-title{
       font-size:1rem;
@@ -443,10 +506,12 @@ footer{
     margin-bottom: 25px;
     color: #fdfefe;
     text-align: center;
-    margin-left: 90px;
+    margin-left: 65px;
   
 
 } 
+
+
 
 .text-field{
    width:200px ;
@@ -474,8 +539,10 @@ footer{
 } 
 
 .descript{
-    max-width: 400px;
-}
+    max-width: 460px;
+} 
+
+
  }
 
 

@@ -107,13 +107,13 @@
 
 /* our plants section */ 
 
-.our-plants-section{
+ .common-text-section{
     text-align:center;
 
      
 }
 
-.plant-text{
+.common-title{
     font-size:3.125rem;
     font-weight:700;
     margin-bottom: 10px;
@@ -122,7 +122,7 @@
 
  
 
-.plant-description{
+.common-description{
       font-size: 1.4rem;
       color: #99a3a4;
       max-width: 848px; 
@@ -137,7 +137,7 @@
     display: grid; 
     grid-template-columns:repeat(4,1fr) ;
     gap: 20px;
-    /* text-align: center; */
+    text-align: center;
     margin-top: 30px;
    
 } 
@@ -201,12 +201,80 @@
     
 }
 
-.flower-lover-content{
+/* .flower-lover-content{
+    
+} */
+
+
+/* Latest deal section */
+
+.deals-img-section{
+    display:grid;
+    grid-template-columns: repeat(2,1fr) ;
+    margin-top: 70px;
+
     
 }
 
+.divide-img{
+    line-height: 58px;
+}
+
+.first-img,.second-img,.third-img{
+    border-radius: 20px;
+  
+}
+
+/* colorful bunch */
+
+.colorful-bunch{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 80px;
+} 
+
+.bunch-img{
+    position: relative;
+  
+} 
+
+.bunch-text{
+    position:absolute;
+      margin-top: -20%;
+      text-align: center;
+      margin-left: 20%;
+  
 
 
+}
+
+.colorful-title{
+      font-size:3.125rem;
+    font-weight:700;
+    margin-bottom: 10px;
+    color: #fdfefe;
+  
+
+} 
+
+.text-field{
+   width:644px ;
+   height: 50px;
+   padding-left: 4px;
+   position: relative;
+} 
+
+.btn{
+    width: 180px;
+    height: 56px;
+    position:absolute;
+    margin-left: -1%;
+    background: #F54927;
+    border: none; 
+    font-weight: 600;
+    font-weight: 1rem;
+    color:#fdfefe;
+}
                 
                 
                 
@@ -241,7 +309,62 @@
    .flower-lover-section{
     flex-direction: column;
 
-   }
+   } 
+
+.deals-img-section{
+    grid-template-columns: 1fr;
+} 
+
+
+.colorful-bunch img{
+    max-width: 520px;
+    height: 300px;
+} 
+
+.bunch-img{
+    position: relative;
+  
+} 
+
+.bunch-text{
+    position:absolute;
+      margin-top: -40%;
+      text-align: center;
+      margin-left: 20%;
+  
+
+
+}
+
+.colorful-title{
+      font-size:1rem;
+    font-weight:700;
+    margin-bottom: 20px;
+    color: #fdfefe;
+    text-align: center;
+    margin-left: 80px;
+  
+
+} 
+
+.text-field{
+   width:180px ;
+   height: 35px;
+   padding-left: 4px;
+   position: relative;
+} 
+
+.btn{
+    width: 100px;
+    height: 40px;
+    position:absolute;
+    margin-left: -1%;
+    background: #F54927;
+    border: none; 
+    font-weight: 600;
+    font-size: 1rem;
+    color:#fdfefe;
+}
  }
 
 

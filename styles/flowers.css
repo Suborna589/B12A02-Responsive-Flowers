@@ -208,7 +208,7 @@
 
 /* Latest deal section */
 
-.deals-img-section{
+.deals-section{
     display:grid;
     grid-template-columns: repeat(2,1fr) ;
     margin-top: 70px;
@@ -216,43 +216,70 @@
     
 }
 
-.divide-img{
+.divide-deals{
     line-height: 58px;
 }
 
-.first-img,.second-img,.third-img{
-    border-radius: 20px;
+
+
+
+
+
+.first-deals,.second-deals,.third-deals , img{
+
+    border-radius: 20px; 
+    position: relative;
+
   
 } 
 
-.bunch-text{
-    position:absolute;    
-     text-align: center; 
-     margin-top: -150%;
-     
+.deal-text-common-color{
+    color: #fdfefe;
+
 
 }
-.deals-title{
-    position:relative;
-    color: black; 
-         margin-left: -20%;
-         color: #fdfefe; 
-         font-weight: bold;
-         font-size: 1.25rem;
+
+   .deal-text-1{
+    position: absolute;
+    margin-top: -50%;
+    margin-left: 18%;
+    text-align: center;
+    line-height: 125%;
+   } 
+
+   .common-deal-title{
+    font-size: 1.25rem;
+    font-weight: bold;
+   } 
+   .common-deal-show{
+    font-size:1rem ;
+    font-weight: 600; 
+    
+   } 
+
+      .deal-text-2{
+    position: absolute;
+   
+    margin-left: 18%;
+    text-align: center;
+    line-height: 125%;
+   }  
+
+   .deal-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+   } 
+
+   .deal-show{
+    font-size: 1.75rem;
+    font-weight: 600;
+   }
+
+
      
 
-}
-.deals-shop{
-    position:relative;
-    color: black;
-    margin-top: 20%;
-         margin-left: -20%;
-         color: #fdfefe; 
-         font-weight: bold;
-         font-size: 1.25rem;
-     
 
-}
+
 
 
 /* colorful bunch */
